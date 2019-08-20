@@ -1,9 +1,3 @@
-/*
-  @author trivago N.V. <jobs@trivago.com>
-  @copyright 2017 trivago N.V.
-  @license proprietary
- */
-
 package com.leobro.hotels.service;
 
 import com.leobro.hotels.service.model.Hotel;

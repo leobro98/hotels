@@ -22,11 +22,11 @@ The `hotel-service` component contains implementations of the `HotelService` int
 
 Thus, the `hotel-service` component can be developed and deployed independently of the `search-service`. For example, if this component is packaged separately, new implementations of the `HotelService` for new types of ordering can be added, and the component can be deployed without changing and rebuilding of the `search-service`.
 
-### Mapping JSON
+## Mapping JSON
 
 On the application startup, an instance of the `JsonMapper` class is created as a Spring bean. At the class constructing, it loads the JSON from the data source file and maps it to business objects. The whole hierarchy of the objects is stored in the list of `City` objects. Then the bean is injected into implementations of the `HotelService` interface, and its `cities` field becomes available to them as a source data for serving requests.
 
-### Validation
+## Validation
 
 The validation of the partner's home page works during the mapping of the JSON data to the `Partner` entity. As this property supposedly is not very important to the user, it is left blank if the source data for it is invalid, and the warning is written to the log file for future checking.
 
