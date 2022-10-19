@@ -1,6 +1,6 @@
 # Hotel Search Service
 
-This is the test assignment accomplishment for implementing the hotel search service. The assignment itself can be found in the `hotels-task.md` file. The interface to be implemented is `HotelService` in `search-service` module and the data source file is `rest/src/main/resources/datasource.json`.
+This is a test assignment accomplishment for implementing a hotel search service. The assignment itself can be found in the `hotels-task.md` file. The interface to be implemented is `HotelService` in `search-service` module and the data source file is `rest/src/main/resources/datasource.json`.
 
 ## Architecture
 
